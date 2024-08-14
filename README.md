@@ -1,8 +1,8 @@
 # 🧭 pixel-stable-diffusion
 This repository leverages the Stable Diffusion model with ControlNet to create pixelated GIFs. The pipeline is designed to generate high-quality pixel art animations using advanced diffusion techniques.
 
-## 이 레포지토리는 스테이블 디퓨전 모델과 컨트롤넷을 활용하여 픽셀 GIF를 생성합니다. 디퓨전 기술을 사용하여 고품질의 픽셀 아트 애니메이션을 생성하도록 설계된 파이프라인입니다.
-
+#### 이 레포지토리는 스테이블 디퓨전 모델과 컨트롤넷을 활용하여 픽셀 GIF를 생성합니다. 디퓨전 기술을 사용하여 고품질의 픽셀 아트 애니메이션을 생성하도록 설계된 파이프라인입니다.
+- 일관성 있는 개체를 표현하기 위해 Depth, Openpose, ip-adapter 를 모두 활용합니다.
 
 
 ---
