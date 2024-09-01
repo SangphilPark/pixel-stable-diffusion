@@ -7,6 +7,18 @@ This repository leverages the Stable Diffusion model with ControlNet to create p
 
 ---
 
+### Demo Images
+
+Here are some examples of the pixel art animations generated using this pipeline:
+
+![Main](https://github.com/user-attachments/assets/52a9eb21-da2e-4d74-91aa-88dcae8aa3ae)
+![Todo](https://github.com/user-attachments/assets/dbbf4b13-6115-4c29-a792-941c9ab1f63e)
+![RAG CHAT](https://github.com/user-attachments/assets/c2b5fba0-838c-4832-9dc7-beb3ab1ffc89)
+
+---
+
+### Visual Workflow
+
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/12519c20-8206-4afb-bac3-db5b76ad20ed" alt="fitPose" width="200"/></td>
@@ -21,3 +33,17 @@ This repository leverages the Stable Diffusion model with ControlNet to create p
 </table>
 
 
+This sequence illustrates the transformation from the initial input frames to the final pixel art animation:
+
+1. **Step 1**: The initial depth and pose data are captured to understand the structural details of the scene.
+2. **Step 2**: These details are processed to maintain consistency across frames.
+3. **Step 3**: The processed frames are refined further to enhance the pixel art style.
+4. **Final Output**: The culmination of the process results in a cohesive and smooth pixel art animation.
+
+This setup is ideal for generating high-quality pixel art GIFs with a strong focus on control and consistency.
+
+
+---
+### 서비스 아키텍쳐
+
+![Architecture](https://github.com/user-attachments/assets/13a134dc-8e9e-4ac2-aec7-6168de4f36a3)
